@@ -7,6 +7,8 @@ namespace tiles {
     //% tilemap.fieldOptions.filter="tile"
     //% tilemap.fieldOptions.taggedTemplate="tilemap"
     //% tilemap.fieldOptions.tileWidth=8
+    //% tilemap.fieldOptions.initWidth=20
+    //% tilemap.fieldOptions.initHeight=15
     //% blockNamespace="scene" group="Tiles" duplicateShadowOnDrag
     //% help=tiles/set-tile-map
     export function setSmallTilemap(tilemap: TileMapData) {
